@@ -1,0 +1,124 @@
+body {
+	background-color: lightcyan;
+}
+
+.top {
+	width: 1000px;
+	height: 110px;
+	background-color: #87CEEB;
+	margin-left: 250px;
+	border-radius: 10px;
+}
+
+.top .top-left {
+	float: left;
+	width: 20%;
+	height: 100px;
+	margin-left: 20px;
+}
+
+.top .top-middle {
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 28px;
+	margin: 40px;
+	margin-left: 100px;
+	height: 40px;
+	/* 	background-color:red; */
+}
+
+.top-right {
+/*  	width: 220px; 
+	height��20px; */
+ 	/* background-color:#80ff80;   */
+	float: right;
+	margin-top:80px;
+}
+
+.top img {
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	cursor: pointer;
+	font-size: 14px;
+}
+
+ a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: darkgray;
+}
+
+a:active {
+	color:lightblue;
+}
+
+.center {
+	width: 900px;
+	height: 500px;
+	margin-left: 250px;
+}
+
+.center-left {
+	/* background-color: red;  */
+	margin-top: 40px;
+	margin-left: 280px;
+	float: left;
+	width: 25%;
+}
+
+.center-right {
+	margin-top: 40px;
+	margin-left: 20px;
+	float: left;
+
+	/*height: 200px;*/
+}
+
+td {
+	height: 50px;
+	vertical-align: bottom;
+	text-align: right;
+}
+
+.buttom {
+	width: 900px;
+	height: 100px;
+	margin-left: 250px;
+}
+
+.buttom .buttom-left {
+	float: left;
+	margin-left: 300px;
+}
+
+.buttom .buttom-right {
+	float: left;
+	margin-top: 40px;
+}
+
+.buttom .buttom-left img {
+	height: 80px;
+	width: 100px;
+}
+
+.linkg {
+	text-decoration: none;
+}
+
+.table {
+	margin-left: 100px;
+}

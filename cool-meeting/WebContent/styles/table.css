@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+.table{
+				border-collapse: collapse;/*让表格边线变成单根实线*/
+				width: 700px;
+				height: 300px;
+				border:1px solid red;
+				margin-top:50px;
+				font-size:14px;
+			}
+			.title a:link{
+				color:black;
+				text-decoration: none;
+			}
+			.title a:visited{
+				color:black;
+			}
+			.title a:hover{
+				color:red;
+			}
+			.title a:active{
+				color:red;
+			}
+			.center_right caption{
+				text-align: left;
+				font-size: 18px;
+				font-family: "微软雅黑";
+				margin-bottom: 15px;
+			}
+			.table td{
+				border:1px solid gray;
+				text-align: center;
+			}
+			.table tr:nth-child(2n){ /*对偶数行的表格内容进行修改*/
+				background-color: white;
+			}
+			.tr1{
+				background-color: skyblue;
+			}
+			.clickbutton{
+				border:1px solid black;
+				font-size:14px;
+				width:58px;
+				height: 16px;
+				margin-left:22px;
+				padding: 4px 3px;
+			}
+			.clickbutton a:link{
+				text-decoration: none;
+				color:black;
+			}
+			.clickbutton a:visited{
+				color:black;
+			}
+			.clickbutton a:hover{
+				color:red;
+			}
+			.clickbutton a:active{
+				color:red;
+			}
