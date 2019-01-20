@@ -1,2 +1,2 @@
-# Git教程
+# This is a MVC practicing.
 
